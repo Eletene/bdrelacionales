@@ -1,2 +1,2 @@
-# bdrelacionales
-Base de datos relacionales 
+# Jesús Ángel Valenzuela Contreras
+4AVP
