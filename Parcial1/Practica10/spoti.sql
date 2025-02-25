@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 22-02-2025 a las 02:11:54
+-- Tiempo de generación: 25-02-2025 a las 01:46:29
 -- Versión del servidor: 10.1.39-MariaDB
 -- Versión de PHP: 7.3.5
 
@@ -43,7 +43,51 @@ INSERT INTO `artisacanciones` (`id`, `artista_id`, `canciones_id`) VALUES
 (2, 5, 9),
 (3, 5, 10),
 (4, 5, 11),
-(5, 5, 12);
+(5, 5, 12),
+(6, 5, 13),
+(7, 5, 48),
+(8, 2, 2),
+(9, 2, 14),
+(10, 2, 15),
+(11, 2, 16),
+(12, 2, 17),
+(13, 2, 18),
+(14, 1, 3),
+(15, 1, 19),
+(16, 1, 20),
+(17, 1, 21),
+(18, 1, 22),
+(19, 1, 23),
+(20, 3, 24),
+(21, 3, 25),
+(22, 3, 26),
+(23, 3, 27),
+(28, 3, 4),
+(29, 4, 5),
+(30, 4, 28),
+(31, 4, 29),
+(32, 4, 30),
+(33, 4, 31),
+(34, 4, 32),
+(35, 6, 6),
+(36, 6, 33),
+(37, 6, 34),
+(38, 6, 35),
+(39, 6, 36),
+(40, 6, 37),
+(41, 7, 7),
+(42, 7, 38),
+(43, 7, 39),
+(44, 7, 40),
+(45, 7, 41),
+(46, 7, 42),
+(47, 8, 8),
+(48, 8, 43),
+(49, 8, 44),
+(50, 8, 45),
+(51, 8, 46),
+(52, 8, 47),
+(53, 8, 48);
 
 -- --------------------------------------------------------
 
@@ -308,7 +352,7 @@ ALTER TABLE `usuarios`
 -- AUTO_INCREMENT de la tabla `artisacanciones`
 --
 ALTER TABLE `artisacanciones`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=54;
 
 --
 -- AUTO_INCREMENT de la tabla `artistas`
